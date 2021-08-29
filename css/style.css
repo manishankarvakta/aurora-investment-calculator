@@ -1,0 +1,88 @@
+.calculator-wrapper {
+  font-family: "roboto", sans-serif;
+  padding: 20px;
+  width: 100%;
+  border: 1px solid #4c93bb;
+  border-radius: 10px;
+  color: #474747; }
+  .calculator-wrapper h2.cal-title {
+    font-family: inherit;
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #4c93bb; }
+  .calculator-wrapper form .form-group {
+    margin-bottom: 15px; }
+    .calculator-wrapper form .form-group label {
+      font-weight: bold;
+      font-size: 1.2em; }
+    .calculator-wrapper form .form-group .invest-amount, .calculator-wrapper form .form-group .invest-amount:focus-visible {
+      background-color: #ffffff;
+      border: 1px solid #585858 !important;
+      height: 40px;
+      width: 150px;
+      font-weight: bold; }
+    .calculator-wrapper form .form-group .cal-slider {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
+      outline: none;
+      margin: 0; }
+    .calculator-wrapper form .form-group .cal-slider:hover {
+      opacity: 1; }
+    .calculator-wrapper form .form-group .cal-slider::-webkit-slider-runnable-track {
+      background-color: #bebebe;
+      height: 5px;
+      border-radius: 3px;
+      box-shadow: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      appearance: none; }
+    .calculator-wrapper form .form-group .cal-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      background: #2a94bc;
+      padding: 0px !important;
+      border: 0px;
+      outline: none;
+      margin-top: -8px; }
+    .calculator-wrapper form .form-group .cal-slider::-moz-slider-thumb {
+      -moz-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      background: #2a94bc;
+      padding: 0px !important;
+      border: 0px;
+      outline: none;
+      margin-top: -8px; }
+    .calculator-wrapper form .form-group .cal-slider::-ms-slider-thumb {
+      -ms-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      background: #2a94bc;
+      padding: 0px !important;
+      border: 0px;
+      outline: none;
+      margin-top: 0; }
+    .calculator-wrapper form .form-group small.form-text {
+      font-weight: bold;
+      font-size: 1em;
+      border-bottom: 10px; }
+  .calculator-wrapper h2.cal-title2 {
+    font-family: inherit;
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #4c93bb;
+    margin-bottom: 0px; }
+  .calculator-wrapper p {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0px; }
+
+/*# sourceMappingURL=style.css.map */
