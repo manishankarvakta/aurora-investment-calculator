@@ -36,21 +36,21 @@ function investment_calculator( $atts ){
         <form>
             <div class="form-group">
                 <label for="in-invest">Initial Investment</label>
-                <input type="number" class="form-control float-right invest-amount" value="10000" min="0" max="100000" id="inInvestAmount"  oninput="inInvest.value=inInvestAmount.value">
+                <input type="text" class="form-control float-right invest-amount" value="10000" min="0" max="100000" id="inInvestAmount"  oninput="inInvest.value=inInvestAmount.value">
                 <span class="float-right" style="margin: 8px 10px"><b> $ </b> </span><br>
-                <input type="range" min="0" max="1000000"  value="100000"  class="cal-slider" id="inInvest" oninput="inInvestAmount.value=inInvest.value"><br>
+                <input type="range" min="0" max="1000000"  value="10000"  class="cal-slider" id="inInvest" oninput="inInvestAmount.value=inInvest.value"><br>
                 <small id="in-invest-help" class="form-text text-muted">$0 <span  class="float-right">$1M</span></small>
             </div>
             <div class="form-group">
                 <label for="add-invest">Annual Additional Investment</label>
-                <input type="number" class="form-control float-right invest-amount"  value="10000" min="0" max="100000"  id="addInvestAmount" oninput="addInvest.value=addInvestAmount.value">
+                <input type="text" class="form-control float-right invest-amount"  value="10000" min="0" max="1000000"  id="addInvestAmount" oninput="addInvest.value=addInvestAmount.value">
                 <span class="float-right" style="margin: 8px 10px"><b> $ </b> </span><br>
-                <input type="range" min="0" max="1000000" value="100000" class="cal-slider" id="addInvest" oninput="addInvestAmount.value=addInvest.value"><br>
+                <input type="range" min="0" max="1000000" value="10000" class="cal-slider" id="addInvest" oninput="addInvestAmount.value=addInvest.value"><br>
                 <small id="add-invest-help" class="form-text text-muted">$0 <span class="float-right">$1M</span></small>
             </div>
             <div class="form-group">
                 <label for="yearNum">Years to Invest</label>
-                <input type="number" class="form-control float-right invest-amount"  min="0" max="2" value="1" id="yearNum"  oninput="yearNumRange.value=yearNum.value">
+                <input type="text" class="form-control float-right invest-amount"  min="0" max="2" value="1" id="yearNum"  oninput="yearNumRange.value=yearNum.value">
                 <span class="float-right" style="margin: 8px 10px"><b> $ </b> </span><br>
                 <input type="range" min="0" max="20" value="1" class="cal-slider" id="yearNumRange" oninput="yearNum.value=yearNumRange.value"><br>
                 <small id="add-invest-help" class="form-text text-muted">0 Yrs <span class="float-right">20 Yrs</span></small>
@@ -60,8 +60,8 @@ function investment_calculator( $atts ){
         <small class="form-text text-muted"><i>Based upon a 16% non-compounded annual return and 8% cash dividend.</i></small>
         <hr>
         <p>Portfolio Balance <span class="float-right" id="p_balance">$116,000</span></p>
-        <p>Annual Cash Flow <span class="float-right" id="a_c_f">$116,000</span></p>
-        <p>Monthly Cash Flow <span class="float-right" id="m_c_f">$116,000</span></p>
+        <p>Annual Cash Flow <span class="float-right" id="a_c_f">$9280</span></p>
+        <p>Monthly Cash Flow <span class="float-right" id="m_c_f">$774</span></p>
        
 
     </div>
